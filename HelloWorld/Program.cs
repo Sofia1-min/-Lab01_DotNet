@@ -122,7 +122,7 @@ Console.WriteLine("power!");*/
 // Задание 3
 //Console.WriteLine("\"Hello There\"");
 // Задание 4
-Console.Write("Введите стоимость монитора: ");
+/*Console.Write("Введите стоимость монитора: ");
 int a = int.Parse(Console.ReadLine());
 Console.Write("Введите стоимость системного блока: ");
 int b = int.Parse(Console.ReadLine());
@@ -132,4 +132,12 @@ Console.Write("Введите стоимость мыши: ");
 int d = int.Parse(Console.ReadLine());
 int e = a + b + c + d;
 int f = e * 3;
-Console.WriteLine($"Стоимость трёх компьютеров: {f}");
+Console.WriteLine($"Стоимость трёх компьютеров: {f}");*/
+// Задание 5
+Console.Write("Введите a: ");
+int a = int.Parse(Console.ReadLine());
+Console.Write("Введите b: ");
+int b = int.Parse(Console.ReadLine());
+double c = 3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41;
+
+Console.WriteLine($"Значение функции: {c}");
