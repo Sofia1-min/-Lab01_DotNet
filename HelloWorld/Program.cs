@@ -134,10 +134,15 @@ int e = a + b + c + d;
 int f = e * 3;
 Console.WriteLine($"Стоимость трёх компьютеров: {f}");*/
 // Задание 5
-Console.Write("Введите a: ");
+/*Console.Write("Введите a: ");
 int a = int.Parse(Console.ReadLine());
 Console.Write("Введите b: ");
 int b = int.Parse(Console.ReadLine());
 double c = 3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41;
 
-Console.WriteLine($"Значение функции: {c}");
+Console.WriteLine($"Значение функции: {c}");*/
+//Задание 6
+Console.Write("Введите температуру в градусах Цельсия: ");
+double c = double.Parse(Console.ReadLine());
+double f = c * 1.8 + 32;
+Console.WriteLine($"Температура: {f}°F");
