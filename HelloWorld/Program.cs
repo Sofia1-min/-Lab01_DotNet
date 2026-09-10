@@ -106,11 +106,16 @@ Console.WriteLine($"Лет до 30:      {30 - age}");
 Console.WriteLine("Нажмите Enter для выхода...");
 Console.ReadLine();*/
 // задание 1
-string a = "Прощай,Лара";  
+/*string a = "Прощай,Лара";  
 int b = 7;                
 double k = 3.14159;                    
 char c = 'A';
 Console.WriteLine(a);
 Console.WriteLine(b);
 Console.WriteLine(k);
-Console.WriteLine(c);
+Console.WriteLine(c);*/
+// Задание 2
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
