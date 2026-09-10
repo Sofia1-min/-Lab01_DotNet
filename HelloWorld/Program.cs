@@ -115,7 +115,10 @@ Console.WriteLine(b);
 Console.WriteLine(k);
 Console.WriteLine(c);*/
 // Задание 2
-Console.WriteLine("I");
+/*Console.WriteLine("I");
 Console.WriteLine("need");
 Console.WriteLine("more");
-Console.WriteLine("power!");
+Console.WriteLine("power!");*/
+// Задание 3
+
+Console.WriteLine("\"Hello There\"");
