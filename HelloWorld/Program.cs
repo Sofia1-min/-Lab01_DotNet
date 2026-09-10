@@ -120,5 +120,16 @@ Console.WriteLine("need");
 Console.WriteLine("more");
 Console.WriteLine("power!");*/
 // Задание 3
-
-Console.WriteLine("\"Hello There\"");
+//Console.WriteLine("\"Hello There\"");
+// Задание 4
+Console.Write("Введите стоимость монитора: ");
+int a = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость системного блока: ");
+int b = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость клавиатуры: ");
+int c = int.Parse(Console.ReadLine());
+Console.Write("Введите стоимость мыши: ");
+int d = int.Parse(Console.ReadLine());
+int e = a + b + c + d;
+int f = e * 3;
+Console.WriteLine($"Стоимость трёх компьютеров: {f}");
