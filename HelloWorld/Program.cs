@@ -79,7 +79,7 @@ else
 Console.WriteLine(int.MinValue);
 Console.WriteLine(double.MaxValue);
 Console.WriteLine(double.MinValue);*/
-Console.WriteLine("Добро пожаловать в анкету!");
+/*Console.WriteLine("Добро пожаловать в анкету!");
 Console.Write("Введите ваше имя: ");
 string name = Console.ReadLine();
 Console.Write("Введите вашу фамилию: ");
@@ -104,4 +104,13 @@ Console.WriteLine($"Средний балл:   {gpa}");
 Console.WriteLine($"Статус:         {status}");
 Console.WriteLine($"Лет до 30:      {30 - age}");
 Console.WriteLine("Нажмите Enter для выхода...");
-Console.ReadLine();
+Console.ReadLine();*/
+// задание 1
+string a = "Прощай,Лара";  
+int b = 7;                
+double k = 3.14159;                    
+char c = 'A';
+Console.WriteLine(a);
+Console.WriteLine(b);
+Console.WriteLine(k);
+Console.WriteLine(c);
